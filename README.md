@@ -8,3 +8,8 @@ O Projeto visa solucionar a lacuna existente nas empresas em relação à criaç
 # Quadro Organizacional
 Optamos pelo Trello para fazer todo o gerencimanento do projeto.
 Link: https://trello.com/invite/b/H1iz4kHA/ATTIda8b9b8012942569c146241377e247b9CEE80A3E/projeto-modulo-3
+
+# Slides e Videos
+Slides:
+Video Demo:
+Pitch:
