@@ -1,0 +1,62 @@
+.header {
+  background-color: #343a40; 
+  color: #fff;
+  padding: 40px 0;
+}
+
+.testimonial {
+    background-color: #f8f9fa;  
+    border: none;
+  }
+  
+/* Sobrenós */
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h4 {
+  margin: 5px 0;
+}
+
+.team-member p {
+  color: #888;
+}
+
+/* Serviços*/
+.service-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #666;
+}
+
+.service-card a.btn {
+  display: inline-block;
+}
+
+/*rodapé  */
+  .footer {
+    text-align: center;
+    color:black
+  }
