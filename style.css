@@ -1,3 +1,9 @@
+
+  /*navbar do menu*/
+  .navbar {
+    justify-content: flex-start;
+  }
+
 .header {
   background-color: #343a40; 
   color: #fff;
@@ -55,8 +61,33 @@
   display: inline-block;
 }
 
-/*rodapé  */
-  .footer {
-    text-align: center;
-    color:black
-  }
+/*login */
+.login-form {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.login-form button {
+  margin-top: 15px;
+}
+
+/* Login Cadastro */
+.clique {
+  color:blue
+}
+
+/*rodapé */
+.footer {
+  text-align: center;
+  color:black
+}
+
+
+
