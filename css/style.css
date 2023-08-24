@@ -15,25 +15,6 @@
     border: none;
   }
   
-/* Sobrenós */
-.team-member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.team-member img {
-  max-width: 100%;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.team-member h4 {
-  margin: 5px 0;
-}
-
-.team-member p {
-  color: #888;
-}
 
 /* Serviços*/
 .service-card {
@@ -88,6 +69,3 @@
   text-align: center;
   color:black
 }
-
-
-
