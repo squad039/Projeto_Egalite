@@ -1,9 +1,4 @@
 
-  /*navbar do menu*/
-  .navbar {
-    justify-content: flex-start;
-  }
-
 .header {
   background-color: #343a40; 
   color: #fff;
@@ -68,4 +63,17 @@
 .footer {
   text-align: center;
   color:black
+}
+
+.media-body {
+  margin-bottom:15px ;
+}
+
+footer {
+  background-color: whitesmoke;
+ 
+}
+
+footer .footer_2 {
+  margin-top: 50px;
 }
