@@ -81,8 +81,8 @@ img{
   
   @media (max-width: 576px) {
     /* line 35, E:/172 Etrain Education/172_Etrain_Education_html/sass/_testimonial_part.scss */
-    .testimonial_part .testimonial_slider {
-      margin: 0px;
+    .testimonial_slider .row {
+      margin-left: 0px;
     }
   }
   
@@ -239,14 +239,14 @@ img{
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* line 143, E:/172 Etrain Education/172_Etrain_Education_html/sass/_testimonial_part.scss */
     .testimonial_part .testimonial_slider {
-      margin: 0px 20px;
+      margin: 10px 20px;
     }
   }
   
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 143, E:/172 Etrain Education/172_Etrain_Education_html/sass/_testimonial_part.scss */
     .testimonial_part .testimonial_slider {
-      margin: 0px 20px;
+      margin: 10px 20px;
     }
   }
   

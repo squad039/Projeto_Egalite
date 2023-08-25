@@ -1,13 +1,12 @@
 
-  /*navbar do menu*/
-  .navbar {
-    justify-content: flex-start;
-  }
-
 .header {
   background-color: #343a40; 
   color: #fff;
   padding: 40px 0;
+}
+
+.corpo {
+  height: 800px;
 }
 
 .testimonial {
@@ -68,4 +67,28 @@
 .footer {
   text-align: center;
   color:black
+}
+
+.media-body {
+  margin-bottom:15px ;
+}
+
+footer {
+  background-color: whitesmoke;
+ 
+}
+
+footer .footer_2 {
+  margin-top: 50px;
+}
+
+footer .single-footer-widget h4 {
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer .la footer {
+  display: flex;
+  justify-items: flex-end;
 }
