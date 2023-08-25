@@ -5,6 +5,10 @@
   padding: 40px 0;
 }
 
+.corpo {
+  height: 800px;
+}
+
 .testimonial {
     background-color: #f8f9fa;  
     border: none;
@@ -76,4 +80,15 @@ footer {
 
 footer .footer_2 {
   margin-top: 50px;
+}
+
+footer .single-footer-widget h4 {
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer .la footer {
+  display: flex;
+  justify-items: flex-end;
 }
