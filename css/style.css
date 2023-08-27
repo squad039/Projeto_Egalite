@@ -1,4 +1,3 @@
-
 .header {
   background-color: #343a40; 
   color: #fff;
@@ -91,4 +90,19 @@ footer .single-footer-widget h4 {
 .footer .la footer {
   display: flex;
   justify-items: flex-end;
+}
+
+.conteudo1 {
+  background-image: url("/img/index/inclusao2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  background-position: center;
+}
+
+.cardAbout .single_feature_part {
+  height: 360px;
+  width: 280px;
+  margin: 20px;
 }
