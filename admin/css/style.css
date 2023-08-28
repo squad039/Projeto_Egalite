@@ -1,0 +1,13 @@
+
+.link-curso {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.link-curso:hover {
+  text-decoration: none;
+  color: white;
+}
