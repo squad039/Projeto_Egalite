@@ -1,4 +1,3 @@
-
 .header {
   background-color: #343a40; 
   color: #fff;
@@ -22,6 +21,7 @@
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
+  height:260px;
 }
 
 .service-card:hover {
@@ -91,4 +91,35 @@ footer .single-footer-widget h4 {
 .footer .la footer {
   display: flex;
   justify-items: flex-end;
+}
+
+.conteudo1 {
+  background-image: url("/img/index/inclusao2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  background-position: center;
+}
+
+.cardAbout .single_feature_part {
+  height: 360px;
+  width: 280px;
+  margin: 20px;
+}
+
+.servico-card p {
+  line-height: 22px;
+}
+
+@media(max-width: 1199px) {
+  .cardAbout .single_feature {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media(min-width: 769px ) and (max-width: 991px)  {
+  .service-card{
+    height: 350px;
+  }
 }

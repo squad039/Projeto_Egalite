@@ -112,7 +112,7 @@ img{
   @media (max-width: 576px) {
     /* line 50, E:/172 Etrain Education/172_Etrain_Education_html/sass/_testimonial_part.scss */
     .testimonial_part .testimonial_slider_text {
-      padding: 5px 0px;
+      padding: 5px 5px;
     }
   }
   
