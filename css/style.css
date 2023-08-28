@@ -1,9 +1,3 @@
-.header {
-  background-color: #343a40; 
-  color: #fff;
-  padding: 40px 0;
-}
-
 .corpo {
   height: 800px;
 }
@@ -12,6 +6,11 @@
     background-color: #f8f9fa;  
     border: none;
   }
+
+.logo img {
+  width: 150px;
+  margin-left: 50px;
+}
   
 
 /* Serviços*/
@@ -35,6 +34,10 @@
 
 .service-card p {
   color: #666;
+}
+
+.btn-primary {
+  border-color: lightseagreen;
 }
 
 .service-card a.btn {
