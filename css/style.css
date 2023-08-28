@@ -21,6 +21,7 @@
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
+  height:260px;
 }
 
 .service-card:hover {
@@ -105,4 +106,20 @@ footer .single-footer-widget h4 {
   height: 360px;
   width: 280px;
   margin: 20px;
+}
+
+.servico-card p {
+  line-height: 22px;
+}
+
+@media(max-width: 1199px) {
+  .cardAbout .single_feature {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media(min-width: 769px ) and (max-width: 991px)  {
+  .service-card{
+    height: 350px;
+  }
 }
