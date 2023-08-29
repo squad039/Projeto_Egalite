@@ -139,6 +139,23 @@ footer .single-footer-widget h4 {
 
 @media(max-width: 991px){
  .time .img-fluid {
-    width: 60%;
+    width: 70%;
+  }
+}
+
+@media(max-width: 560px){
+  .lead {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+  }
+  .featurette {
+    padding: 0px;
+  }
+}
+
+@media(min-width: 561px) and (max-width: 1660px){
+  .lead {
+    font-size: 1.18em;
+    margin-bottom: 20px;
   }
 }
