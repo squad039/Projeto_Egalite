@@ -19,7 +19,7 @@
 .time .img-fluid {
   width: 80%;
 }
-  
+
 
 /* Serviços*/
 .service-card {
@@ -108,12 +108,12 @@ footer .single-footer-widget h4 {
   justify-items: flex-end;
 }
 
-.conteudo1 {
-  background-image: url("/img/index/inclusao2.jpg");
+.conteudo2 {
+  background-image: url("/img/index/inclusao.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 480px;
+  height: 580px;
   background-position: center;
 }
 
@@ -145,6 +145,9 @@ footer .single-footer-widget h4 {
  .time .img-fluid {
     width: 70%;
   }
+  .conteudo2 {
+    height: 350px;
+  }
 }
 
 @media(max-width: 560px){
@@ -173,6 +176,30 @@ footer .single-footer-widget h4 {
 @media(min-width: 300px) and (max-width: 338px) {
   .card-body-description {
     max-height: 120px;
+  }
+}
+
+@media(max-width: 766px){
+  .conteudo2 {
+    height: 280px;
+  }
+}
+
+@media(max-width: 476px){
+  .conteudo2 {
+    height: 220px;
+  }
+}
+
+@media(max-width: 380px){
+  .conteudo2 {
+    height: 200px;
+  }
+}
+
+@media(max-width: 350px){
+  .conteudo2 {
+    height: 180px;
   }
 }
 
