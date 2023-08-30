@@ -32,7 +32,7 @@ body{
     width: 380px;
     height: 420px;
     background: linear-gradient(0deg, transparent,
-    #E5BA73, #E5BA73);
+    #398e88ff, #398e88ff);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
 }
@@ -45,7 +45,7 @@ body{
     width: 380px;
     height: 420px;
     background: linear-gradient(0deg, transparent,
-    #E5BA73, #E5BA73);
+    #398e88ff, #398e88ff);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
@@ -72,7 +72,7 @@ body{
 }
 
 .form h2{
-    color:#E5BA73;
+    color:#2fcfbaff;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.1em;
@@ -101,14 +101,14 @@ body{
     left: 0;
     padding: 20px 10px 10px;
     font-size: 1em;
-    color: #8f8f8f;
+    color: #f5edf0ff;
     pointer-events: none;
     letter-spacing: 0.05em;
     transition: 0.5s;
 }
 .inputcontainer input:valid ~ span,
 .inputcontainer input:focus ~ span{
-    color: #E5BA73;
+    color: #f5edf0ff;
     transform: translateX(0px) translateY(-34px);
     font-size: 0.75em;
 }
@@ -119,7 +119,7 @@ body{
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #E5BA73;
+    background: #398e88ff;
     border-radius: 4px;
     transition: 0.5s;
     pointer-events: none;
@@ -144,13 +144,13 @@ body{
 
 .links a:hover,
 .links a{
-    color: #E5BA73;
+    color: #2fcfbaff;
 }
 
 input[type="submit"]{
     border: none;
     outline: none;
-    background: #E5BA73;
+    background: #398e88ff;
     padding: 11px 25px;
     width: 100px;
     margin-top: 10px;

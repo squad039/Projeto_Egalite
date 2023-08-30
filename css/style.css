@@ -11,6 +11,14 @@
   width: 150px;
   margin-left: 50px;
 }
+
+.navbar-nav {
+  padding-right: 80px;
+}
+
+.time .img-fluid {
+  width: 80%;
+}
   
 
 /* Serviços*/
@@ -42,6 +50,10 @@
 
 .service-card a.btn {
   display: inline-block;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 /*login */
@@ -115,6 +127,8 @@ footer .single-footer-widget h4 {
   line-height: 22px;
 }
 
+
+
 @media(max-width: 1199px) {
   .cardAbout .single_feature {
     display: flex;
@@ -123,6 +137,42 @@ footer .single-footer-widget h4 {
 }
 @media(min-width: 769px ) and (max-width: 991px)  {
   .service-card{
-    height: 350px;
+    height: 300px;
   }
 }
+
+@media(max-width: 991px){
+ .time .img-fluid {
+    width: 70%;
+  }
+}
+
+@media(max-width: 560px){
+  .lead {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+  }
+  .featurette {
+    padding: 0px;
+  }
+}
+
+@media(min-width: 561px) and (max-width: 1660px){
+  .lead {
+    font-size: 1.18em;
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+  .card-body-description {
+    max-height: 80px;
+  }
+}
+
+@media(min-width: 300px) and (max-width: 338px) {
+  .card-body-description {
+    max-height: 120px;
+  }
+}
+
