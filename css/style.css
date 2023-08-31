@@ -195,13 +195,13 @@ footer .single-footer-widget h4 {
 
 @media(max-width: 380px){
   .conteudo2 {
-    height: 200px;
+    height: 180px;
   }
 }
 
 @media(max-width: 350px){
   .conteudo2 {
-    height: 180px;
+    height: 150px;
   }
 }
 
