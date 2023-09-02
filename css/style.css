@@ -173,6 +173,19 @@ footer .single-footer-widget h4 {
   .card-body-description {
     max-height: 80px;
   }
+  row .featurette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row .featurette .col-md-7 {
+    max-width: 100%;
+  }
+  .row .featurette .col-md-5 {
+    max-width: 80%;
+    display: flex;
+    order: 2 ;
+  }
 }
 
 @media(min-width: 300px) and (max-width: 338px) {
@@ -204,4 +217,10 @@ footer .single-footer-widget h4 {
     height: 150px;
   }
 }
-
+@media (min-width: 1200px){
+.row .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+}
