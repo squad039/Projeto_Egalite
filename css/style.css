@@ -177,7 +177,7 @@ footer .single-footer-widget h4 {
     max-width: 100%;
   }
   .row .featurette .col-md-5 {
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     order: 2 ;
   }
