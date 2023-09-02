@@ -2852,14 +2852,12 @@ ul {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 159, E:/172 Etrain Education/172_Etrain_Education_html/sass/_feature_part.scss */
   .single_feature_padding {
-    padding-top: 70px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 159, E:/172 Etrain Education/172_Etrain_Education_html/sass/_feature_part.scss */
   .single_feature_padding {
-    padding-top: 70px;
   }
 }
 
