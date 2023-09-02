@@ -169,7 +169,7 @@ footer .single-footer-widget h4 {
   }
 }
 
-@media(min-width: 768px) and (max-width: 1200px) {
+@media(min-width: 768px) and (max-width: 1340px) {
   .card-body-description {
     max-height: 80px;
   }
@@ -217,7 +217,7 @@ footer .single-footer-widget h4 {
     height: 150px;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1350px){
 .row .col-md-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
