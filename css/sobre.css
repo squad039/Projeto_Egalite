@@ -2160,10 +2160,10 @@ ul {
   }
 }
 
-@media only screen and (min-width: 331px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */
   .banner_part {
-    height: 600px;
+    height: 675px;
     background-image: none;
     background-color: #f7f7f7;
   }
@@ -2230,7 +2230,6 @@ ul {
   .banner_part .banner_text {
     text-align: center;
     padding-top: 0px;
-    height: 700px;
   }
 }
 
@@ -2336,7 +2335,6 @@ ul {
   /* line 112, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */
   .banner_part .banner_text .btn_1 {
     margin-top: 20px;
-    margin-bottom: 70px;
     padding: 10px 25px;
   }
 }
