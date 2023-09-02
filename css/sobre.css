@@ -2154,7 +2154,6 @@ ul {
 @media (max-width:330px) {
   /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */
   .banner_part {
-    height: 750px;
     background-image: none;
     background-color: #f7f7f7;
   }
