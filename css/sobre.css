@@ -494,6 +494,21 @@ ul {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+  /* line 260, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
+  .container_contato {
+    max-width: 1200px;
+  }
+  .container_contato {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
 @media (max-width: 1200px) {
   /* line 265, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
   [class*="hero-ani-"] {
