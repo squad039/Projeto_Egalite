@@ -114,8 +114,6 @@ footer .single-footer-widget h4 {
 
 .conteudo2 {
   width: 100%;
-  height: 630px;
-  
 }
 
 .cardAbout .single_feature_part {
@@ -146,9 +144,7 @@ footer .single-footer-widget h4 {
  .time .img-fluid {
     width: 70%;
   }
-  .conteudo2 {
-    height: 350px;
-  }
+
 }
 
 @media(max-width: 560px){
@@ -168,9 +164,22 @@ footer .single-footer-widget h4 {
   }
 }
 
-@media(min-width: 768px) and (max-width: 1200px) {
+@media(min-width: 768px) and (max-width: 1349px) {
   .card-body-description {
     max-height: 80px;
+  }
+  .row .featurette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row .featurette .col-md-7 {
+    max-width: 100%;
+  }
+  .row .featurette .col-md-5 {
+    max-width: 80%;
+    display: flex;
+    order: 2 ;
   }
 }
 
@@ -180,27 +189,13 @@ footer .single-footer-widget h4 {
   }
 }
 
-@media(max-width: 766px){
-  .conteudo2 {
-    height: 280px;
-  }
-}
 
-@media(max-width: 476px){
-  .conteudo2 {
-    height: 220px;
-  }
-}
 
-@media(max-width: 380px){
-  .conteudo2 {
-    height: 180px;
-  }
+@media (min-width: 1350px){
+.row .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
 }
-
-@media(max-width: 350px){
-  .conteudo2 {
-    height: 150px;
-  }
 }
 
